@@ -1,0 +1,9 @@
+Selenium:
+=========
+1.Windows Handling
+------------------
+-It can done by 3 ways
+     1.URl
+     2.Page Title
+     3.Window Id
+
