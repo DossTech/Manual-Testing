@@ -1,0 +1,21 @@
+Robot-C:  java.awt
+=======
+To perform keyboard related action
+
+Methods:
+=======
+
+keyPress()--m                    
+keyRelease()--m
+
+KeyEvent:C
+----------- 
+
+VK_DOWN
+
+
+keyBoard Related Actions using Action Class:
+==========================================
+https://demoqa.com/text-box
+keyDown---->for pressing the key
+keyUp------>for releasing the key
