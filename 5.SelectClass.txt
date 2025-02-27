@@ -1,0 +1,33 @@
+
+DropDown Syntax:
+================
+Select ref.Name = new Select(Webelement ref.Name);
+
+Select: C
+======
+implement Iselect
+
+selectByIndex(10)
+selectByValue("IND")
+selectByVisibleText("India")
+
+select multiple value url
+=====================
+
+https://www.softwaretestingmaterial.com/sample-webpage-to-automate/
+https://demoqa.com/select-menu
+
+Select---Class
+======
+1.selectByValue() - m
+2.selectByVisibleText() - m
+3.selectByIndex() - m
+4.getOptions() - m
+5.isMultiple() - m
+
+6.getAllSelectedOption() - m
+7.getFirstSelectedOption() - m
+8.deSelectByIndex() - m
+9.deSelectByValue() - m
+10.deSelectByVisibleText() - m
+11.deSelectAll() - m
