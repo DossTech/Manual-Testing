@@ -1,0 +1,33 @@
+Actions:------------Class
+========
+To perform mouse related actions.
+
+To do mouse over action:
+------------------------ 
+moveToElement() ---m
+
+
+Syntax:
+=======
+
+Actions obj = new Actions(webDriver ref);
+
+obj.moveToElement(webele ref).perform();
+
+
+To do drag and drop:
+--------------------
+dragAndDrop()--m
+
+syntax:
+--------
+
+Actions obj = new Actions(webDriverref);
+obj.dragAndDrop(Source,Destination).perform();
+
+Click():
+--------
+contextClick()-m-->to right click on a web element
+doubleClick()-m-->to double click on web element
+
+http://demo.guru99.com/test/drag_drop.html
