@@ -1,0 +1,59 @@
+JavascriptExecutor:I (To find the hidden elements)
+-------------------
+
+executeScript()-m
+
+
+insert:/sendKeys
+------
+arguments[0].setAttribute('value','Greens')
+
+click:
+------
+arguments[0].click()
+
+getAttribute:
+------------
+return arguments[0].getAttribute('value')
+-->
+
+ScrollDown:
+-----------
+arguments[0].scrollIntoView(true)
+
+ScrollUp:
+---------
+arguments[0].scrollIntoView(false)
+
+
+-----------------------------------------
+
+
+		JavascriptExecutor js = (JavascriptExecutor)driver;
+		js.executeScript("arguments[0].setAttribute('value','r.ranojidoss@gmail.com')", txtUserName);
+
+		js.executeScript("arguments[0].setAttribute('value','12345')", txtPassword);
+
+
+		Object es1 = js.executeScript("return arguments[0].getAttribute('value')", txtUserName);
+         String s1 = es1.toString();
+         System.out.println(s1);
+         
+  
+		Object es2 = js.executeScript("return arguments[0].getAttribute('value')", txtPassword);
+         String s2 = es2.toString();
+         System.out.println(s2);
+
+
+----------------
+	JavascriptExecutor js = (JavascriptExecutor)driver;
+/*		js.executeScript("arguments[0].setAttribute('value','ranojidoss')",txtUserName);
+		@Nullable
+		Object ob = js.executeScript("return arguments[0].getAttribute('value')",txtUserName);
+		String string = ob.toString();
+		System.out.println(string);
+		
+		*/
+		
+		WebElement element = driver.findElement(By.name("login"));
+		js.executeScript("arguments[0].click()", element);
