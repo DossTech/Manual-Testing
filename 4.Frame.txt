@@ -1,0 +1,19 @@
+Frames:
+=======
+
+DOM Syntax:
+===========
+
+<iframe id="876" name="h876g"/>
+
+
+driver.switchTo().frame(String id)
+driver.switchTo().frame(String name)
+driver.switchTo().frame(WebElement element)
+
+driver.switchTo().frame(int index)
+
+http://demo.guru99.com/test/guru99home/
+
+driver.switchTo().defaultContent();
+driver.switchTo().parentFrame();
