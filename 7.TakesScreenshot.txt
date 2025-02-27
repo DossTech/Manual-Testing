@@ -1,0 +1,36 @@
+TakesScreenshot----Interface
+--------------------------
+	getScreenshotAs(OutputType.FILE)----method
+
+
+OutputType--I
+
+Formates
+----------
+OutputType.FILE
+OutputType.BASE64
+OutputType.BYTES
+
+Steps:
+-------
+
+-----Typecase to downcasting
+	
+-----Store screenshot in default
+
+-----create a new screenshot folder
+
+-----copy from default to new
+
+FileUtils----Class
+--------------------
+copyFile---staticmethod
+
+commons.io--jar
+
+==================================
+		WebDriver driver = new ChromeDriver();
+
+		driver.get("https://www.facebook.com/");
+		TakesScreenshot ts = (TakesScreenshot)driver;
+		File f1 = ts.getScreenshotAs(OutputType.FILE);
