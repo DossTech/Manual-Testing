@@ -1,0 +1,45 @@
+Navigation Commands:
+------------------------
+to()
+back()
+forward()
+refresh()
+
+Diffrence between get(),navigate().to()
+
+
+
+
+
+
+1. What are navigation commands in Selenium?
+Navigation commands in Selenium are used to navigate between web pages. Examples include get(), navigate().to(), navigate().back(), navigate().forward(), and navigate().refresh().
+
+2. *What is the difference between get() and navigate().to()?*
+Both get() and navigate().to() are used to navigate to a new URL. However, get() is a part of the WebDriver interface, while navigate().to() is a part of the Navigatable interface.
+
+3. How do you navigate back in Selenium?
+You can navigate back in Selenium using the navigate().back() method.
+
+4. How do you navigate forward in Selenium?
+You can navigate forward in Selenium using the navigate().forward() method.
+
+5. How do you refresh a page in Selenium?
+You can refresh a page in Selenium using the navigate().refresh() method.
+
+6. Can you explain the concept of current page and current URL in Selenium?
+In Selenium, the current page refers to the page that is currently loaded in the browser, while the current URL refers to the URL of the current page.
+
+Example Code:
+
+// Navigate to a new URL
+driver.get("https://www.google.com");
+
+// Navigate back
+driver.navigate().back();
+
+// Navigate forward
+driver.navigate().forward();
+
+// Refresh the page
+driver.navigate().refresh();
