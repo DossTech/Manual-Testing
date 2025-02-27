@@ -1,0 +1,48 @@
+Implicit wait
+===============
+
+//Syntax:
+=========
+driver.manage().timeouts().implicitlywait(30,Timeunit.seconds);
+
+manage():abstract method--we can able to access browser menu
+timeouts(): impose the webdriver, when user wants to control the script flow 
+Duration.ofDays(10));
+Applicable for all locators
+here, we no need to wait for maximum seconds
+once the element is found, it will proceed the next steps
+the default wait time is zero
+
+Explicitly wait
+================
+Applicable for only one locator/specific locator
+here, no need to wait for maximum duration
+once the element is found, it will proceed the next step
+
+
+1)WebDriverWait - C
+==============
+WebDriverWait driverwait= new WebDriverWait(driver, Duration.ofSeconds(10)); - s
+WebElement element =  driverwait.until(ExpectedConditions.elementToBeClickable(By.xpath("//a/h3")));
+element .click();
+
+a)alertispresent()
+b)elementselectionstateToBE()
+c)element toclickable()
+d)elementedToBeSelected()
+
+2)FluentWait - C
+============
+
+It checks for the web element at regular intervals until the element is found
+ or time out happens
+
+FluentWait w = new FluentWait(driver).withTimeout(Duration.ofSeconds(50)).pollingEvery(Duration.ofSeconds(5))
+.ignoring(Throwable.class);
+
+Object object =  w.until(ExpectedConditions.elementToBeClickable(By.xpath("//a/h3")));
+WebElement  ele = (WebElement)Object;
+ele.click();
+
+
+
