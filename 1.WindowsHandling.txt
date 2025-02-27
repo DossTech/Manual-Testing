@@ -7,3 +7,59 @@ Selenium:
      2.Page Title
      3.Window Id
 
+-windowHandle():
+    Which is used to fetch  the particular window Id
+-WindowHandles():
+    Which is used to fetch all the window Ids(Parent + child Id)
+
+------------------------------------------------------------------------------------------
+1. What is Window Handling in Selenium?
+Window Handling is a technique used in Selenium to handle multiple windows or tabs that are opened during test execution.
+
+2. How do you handle multiple windows in Selenium?
+You can handle multiple windows in Selenium using the getWindowHandles() method, which returns a set of window handles. You can then use the switchTo() method to switch between windows.
+
+3. *What is the difference between getWindowHandle() and getWindowHandles()?*
+getWindowHandle() returns the handle of the current window, while getWindowHandles() returns a set of handles of all the windows currently open.
+
+4. How do you switch between windows in Selenium?
+You can switch between windows in Selenium using the switchTo() method and passing the window handle as an argument.
+
+5. How do you close a specific window in Selenium?
+You can close a specific window in Selenium using the close() method after switching to that window using the switchTo() method.
+
+6. How do you handle alerts and pop-ups in Selenium?
+You can handle alerts and pop-ups in Selenium using the Alert interface and methods like accept(), dismiss(), and getText().
+
+7. *What is the difference between driver.quit() and driver.close()?*
+driver.quit() closes all the windows and terminates the WebDriver session, while driver.close() closes the current window and does not terminate the session.
+
+Example Code:
+
+// Get the handle of the current window
+String parentWindowHandle = driver.getWindowHandle();
+
+// Open a new window
+driver.findElement(By.xpath("//a[@href='#']")).click();
+
+// Get the handles of all the windows
+Set<String> windowHandles = driver.getWindowHandles();
+
+// Switch to the new window
+for (String windowHandle : windowHandles) {
+    if (!windowHandle.equals(parentWindowHandle)) {
+        driver.switchTo().window(windowHandle);
+        break;
+    }
+}
+
+// Perform actions on the new window
+driver.findElement(By.xpath("//input[@name='username']")).sendKeys("username");
+
+// Close the new window
+driver.close();
+
+// Switch back to the parent window
+driver.switchTo().window(parentWindowHandle);
+
+
