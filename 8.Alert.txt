@@ -1,0 +1,28 @@
+Alert: I
+=========
+unable to find the locator.
+switch to alert.
+
+Switching the alert:
+===================
+
+Alert ref.Name = driver.switchTo().alert();
+
+
+Types:
+======
+SimpleAlert--->contains only OK button..(We should accept this alert)
+ConfirmAlert-->contains both Ok and cancel button(Either we can accept or dismiss the Alert)
+PromptAlert--->contains text box with ok and cancel button we have to insert the value then we have choose 
+                  "yes" to accept the alert or we have to give "NO" to  dismiss the alert.
+
+methods in Alert:
+================
+accept()----m---->to accept the alert
+dismiss()---m---->to dismiss the alert
+sendKeys()--m---->to insert the values
+getText()---m---->to print the text from the Alert
+
+http://demo.automationtesting.in/Alerts.html
+
+//https://mail.rediff.com/cgi-bin/login.cgi
