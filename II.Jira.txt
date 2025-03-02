@@ -1,0 +1,13 @@
+Jira installation on cloud
+=========================
+click--->get it free
+Jira service management
+Give gmail Id
+click--->continue
+url Name creation: 
+agree
+skil: 3 screen
+
+FrameWork: SCRUM
+CreateProject: 
+WE can fine Jira Dashboard:
