@@ -11,3 +11,21 @@ skil: 3 screen
 FrameWork: SCRUM Framework
 CreateProject: 
 WE can fine Jira Dashboard:
+
+-----------------------------------------
+
+STEP1:
+=======
+1.jIRA Project Management Activity
+
+1.Create a new Project in Jira
+2.Add user
+3.Create Epic
+4.Create userstories
+5.Create new Spring 
+6.Add user stories to Sprint
+7.Start Sprint
+8.Check Story status in the sprint(scrum board)
+9.Add subtask/child issue for story
+10.Sprint progress/Scrum Board
+
