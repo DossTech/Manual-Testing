@@ -8,6 +8,6 @@ url Name creation: Any Name
 agree
 skil: 3 screen
 
-FrameWork: SCRUM
+FrameWork: SCRUM Framework
 CreateProject: 
 WE can fine Jira Dashboard:
