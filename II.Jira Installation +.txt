@@ -28,6 +28,7 @@ STEP1:
 8.Check Story status in the sprint(scrum board)
 9.Add subtask/child issue for story
 10.Sprint progress/Scrum Board
+11.Create Bugs 
 
 ----------------------------------------------
 Issue:
@@ -37,4 +38,7 @@ Story
 Task
 Bug
 Subtask
+
+
+
 
