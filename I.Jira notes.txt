@@ -1,0 +1,87 @@
+Jira from ATlassian
+===================
+1.Plan,track and ship world-clas work
+2.All type of team development team, Agile teams marketing teams, 5 or 5k keeps you to work
+
+HOW A TEAM CAN USE JIRA?
+=========================
+3.Manageing work in jira helps in
+  transparent: can view and comment
+ efficient:breaking the project and know when to start and when to end
+  collaborative: Can work closely with teammates, organizing verything
+
+HOW YOU USE JIRA?
+==================
+Prioritize: most important item works
+Plan your week:Visualizing the upcoming work
+Find answers and ask questions:About your work items
+Stay up to date:on your teammates work
+Share progress:
+
+ISSUE:
+======
+Its a WORKITEM
+It - work progress/ add relavant info(notes, qs)
+It can vary in size - depends on how team uses
+
+PROJECT:
+========
+Collection of related issue is a Project, every issue belongs to project
+
+Prokect Keys - Short version of the project: GDT-1, GDT-2
+
+BOARD:
+======
+Visualization of the work in a project
+Team work flow
+----------------------------------------------->Navigation
+
+:::   Product switch
+Yourwork: issues, projects and boards
+Projects: Lists the Project + can create new project
+Filter&Dashboard: Shows saved or starred  filters and dashboards
+People:Show list of people who interact
+plan,Assets,Apps: show the plan and apps
+Create: Helps to create new issue
+Search: issues,project,ques,filters and people
+<===============================>
+
+PROJECTS:
+=========
+1.Project name: Name of the current project which we use
+2.BoardSwitcher:Allows you to switch between different boards in this projects
+3.Backlog:Allows you and your team to define and plan issues before starting to work on them
+4.Scrum board: Shows the selected board
+5.Reports: Shows reports for your project's data
+6.Issues: shows you all issues in the project
+  Components,Releases,Project pages: Optional project configurations that your
+              team can customize to track your work.
+     
+7.Project settings:
+          project admins - edit project details, update permisssions and create workflows among other responsibilities
+
+8.Project type indicator:team managed or company managed
+//////////////////////Elearncourse: Start navigating Jira? Passed March2,2025
+---------------------------------------------->Create issues in Jira
+
+TYPES OF ISSUE:
+===============
+It tells about the category and size of the work an  issue represents
+
+Hierarchy of issue
+------------------
+Epic: An large body of work that can be break down into small chuck
+
+Story: A deliverable from user perspective. they work items in nontechnical language.
+
+Task: A task contains a detailed description of a work item, usually from your perspective. eg: Review survery data - might have list of metrics that you want to analyze and specific requirements for your review.
+
+Bug: describes a problem or error
+     to represent the work needed to investigate and determine a solution for a   	eg: broken button
+
+SubTask: Smallest piece of work
+-------------------------------------------------
+
+Projectmanagement linkedin
+Saleforeassociate  by trailhead
+Generative AI
