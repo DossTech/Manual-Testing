@@ -29,3 +29,12 @@ STEP1:
 9.Add subtask/child issue for story
 10.Sprint progress/Scrum Board
 
+----------------------------------------------
+Issue:
+------
+Epic
+Story
+Task
+Bug
+Subtask
+
