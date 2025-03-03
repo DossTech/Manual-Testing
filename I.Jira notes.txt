@@ -28,7 +28,7 @@ PROJECT:
 ========
 Collection of related issue is a Project, every issue belongs to project
 
-Prokect Keys - Short version of the project: GDT-1, GDT-2
+Project Keys - Short version of the project: GDT-1, GDT-2
 
 BOARD:
 ======
