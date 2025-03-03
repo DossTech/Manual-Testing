@@ -1,0 +1,8 @@
+Create a Backlog:
+=================
+1.Click Project
+2.Click "Create"
+      *Select the Project
+      *Issue tye
+      *Fill REquired fields
+      *Create
