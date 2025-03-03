@@ -1,0 +1,15 @@
+//Now we will in board
+
+Epic--->userstory--->Task(Child Issues)
+
+Select the Story--->add child issues
+                    Task1: Write testcases
+                    Task2: Execute testcases
+                    Task3: Bug reporting---->Close
+
+
+Update the task as (TODO or INPROGRESS or DONE)
+
+/When the Task/Sprint --->Done----->Inbacklog it will be stricken
+
+Click -->Complete Sprint
