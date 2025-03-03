@@ -1,6 +1,7 @@
 In the Project--->in the backlog---->defaultly Sprint will be there-----Drag and drop the Sprint from Product backlog to Sprint
 
-
+//defaulty Sprint1 was created by jira
+//Addinguserstory to Sprint1
 ---------------------------------------------------
 Sprint1(defaultly available)
                   (Drop here)
@@ -12,3 +13,6 @@ Product backlog   (Drag here)
 Sprint1
 Sprint2
 Sprint3
+
+----------------------------------------------------------------------------------------------
+//Start the Sprint by clicking th button----->Start Sprint
