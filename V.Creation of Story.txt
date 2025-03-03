@@ -15,3 +15,8 @@ Story4. As a user
            So that I can add them to cart and do payment
 
 Actor--->Action---->Output
+
+
+1.Go to Backlog--->create---->select project----->Issuetype=-"Story"
+               --->status="To DO"--->Summary="Title "--->Description-->Sprint="1"
+               --->StoryPoint="3"---->Can insert doc
