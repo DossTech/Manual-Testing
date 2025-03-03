@@ -6,3 +6,7 @@ Create a Backlog:
       *Issue tye
       *Fill REquired fields
       *Create
+
+
+Description: For a new e-commerce website to launch, the highest business value will 
+               be when a new user is able to buy  an item from the website
