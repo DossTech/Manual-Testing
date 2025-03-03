@@ -1,0 +1,14 @@
+In the Project--->in the backlog---->defaultly Sprint will be there-----Drag and drop the Sprint from Product backlog to Sprint
+
+
+---------------------------------------------------
+Sprint1(defaultly available)
+                  (Drop here)
+
+
+
+----------------------------------------------------
+Product backlog   (Drag here)
+Sprint1
+Sprint2
+Sprint3
