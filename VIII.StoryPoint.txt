@@ -1,0 +1,5 @@
+Story point reflect Story level only
+
+Iterative and Incremental model---------->Final product to the customer
+
+Priority - based on the story priority- customer or product owner
