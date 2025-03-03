@@ -1,4 +1,5 @@
 1.Setting-->click
 2.User management--->Can give mail
-                 --->Invite users
+                 --->Invite users-->previlage->invite user
+
 
