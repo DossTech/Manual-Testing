@@ -10,6 +10,8 @@ Select the Story--->add child issues
 
 Update the task as (TODO or INPROGRESS or DONE)
 
-/When the Task/Sprint --->Done----->Inbacklog it will be stricken
+//When the Task/Sprint --->Done----->Inbacklog it will be stricken
 
 Click -->Complete Sprint
+
+//Nothin will be in board
