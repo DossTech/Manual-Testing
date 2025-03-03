@@ -1,3 +1,17 @@
-1.As a first time visitor to e-commerce website
-    I want to register my account
-    So that I can login to application
+Strory1.As a first time visitor to e-commerce website
+              I want to register my account
+              So that I can login to application
+
+Story2. As a registered user
+           I want to login to the website
+           So that I can see my account details etc
+
+Story3. As a registered user
+           I want to logout from website
+           So that no one else can't access my account
+
+Story4. As a user
+           I want to be able to search items
+           So that I can add them to cart and do payment
+
+Actor--->Action---->Output
