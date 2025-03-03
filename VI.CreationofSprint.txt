@@ -16,3 +16,10 @@ Sprint3
 
 ----------------------------------------------------------------------------------------------
 //Start the Sprint by clicking th button----->Start Sprint
+
+       Click the "Srat Sprint"
+      SprintNAme:
+       Duration:
+      Sprint goal
+     click Start
+      NAviagting to Sprint board under "TO DO LIST"
