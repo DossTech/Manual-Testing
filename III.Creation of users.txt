@@ -1,0 +1,4 @@
+1.Setting-->click
+2.User management--->Can give mail
+                 --->Invite users
+
