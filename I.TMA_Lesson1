@@ -54,7 +54,8 @@ Steps:
 
 ///OR HOW TO IMPORT THE TESTCASES IN THE JIRA TOOL
 ----------------------------------------------------
-XLSX TO CSV FILE
+Click Zephyr Scale--->more---->Import file
+Click this option : XLSX TO CSV FILE
 
 IF SIZE EXCEED 5mb(SHEET WISE)
 
