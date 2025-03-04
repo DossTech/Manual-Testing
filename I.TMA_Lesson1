@@ -1,4 +1,10 @@
-Zephyr plugin
+pREREUISITE:
+---------------
+1.Zephyr plugin
+2. Enable  Zephyr Scale 
+     1.Select the Project
+     2.Select the Zephyr Scale
+     3.Click the enable
 
 
 TestManagement activities in Jira:
@@ -16,13 +22,11 @@ Apps---->Explore more Apps----->Zephyr(TestMAnagement for Jira) -30days
 //can see zephyr scale(testoption will be found)
 
 
-//How to Enable  Zephyr Scale 
-1.Select the Project
-2.Select the Zephyr Scale
-3.Click the enable
+
 
 Zephyr Scale - contains : TestCases TestCycles TestPlans Reports
 
+TESTCASES  TESTCYCLES TESTPLANS REPORTS
 
 
 
