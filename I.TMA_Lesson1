@@ -6,6 +6,8 @@ PREREUISITE:
      2.Select the Zephyr Scale
      3.Click the enable
 
+Apps---->Explore more Apps----->Zephyr(TestMAnagement for Jira) -30days
+//can see zephyr scale(testoption will be found)
 
 TestManagement activities in Jira:
 ==================================
@@ -16,17 +18,46 @@ TestManagement activities in Jira:
 5.Reports
 6.Import and export test cases in jira
 
+//Zephyr Scale - contains : TestCases TestCycles TestPlans Reports
+//TESTCASES  TESTCYCLES TESTPLANS REPORTS
+
+//1.HOW TO WRITE TEST CASES
+---------------------------
+TESTCASES---->NewTestcases
+has
+DETAILS | TEST SCRIPT | EXECUTION | TRACEBILITY | ATTACHEMENTS | COMPONENTS | HISTORY
+
+//Filling of Details
+--------------------
+Name: Verify Login
+Object: To verify Login is successful with valid credential
+Precondition:
+        1.Application should up and running
+        2.Login screen should appeard
+priority:(high,normal,low)
+Component:
+Owner:
+Labels:
+
+//Filling TESTSCRIPT
+----------------------
+1.STep by Step 2.BDD
 
 
-Apps---->Explore more Apps----->Zephyr(TestMAnagement for Jira) -30days
-//can see zephyr scale(testoption will be found)
+Steps:
+------
+1.Go to Login page                     NA                            UserName, Password and submit button should display
 
+2.Enter valid username and password    userName: abcd                submit button enabled and focused
+                                       password: abcd@gmail.com
+3.Click on the submit button           NA                            User should able to login and see Dashboard page
 
+///OR HOW TO IMPORT THE TESTCASES IN THE JIRA TOOL
+----------------------------------------------------
+XLSX TO CSV FILE
 
+IF SIZE EXCEED 5mb(SHEET WISE)
 
-Zephyr Scale - contains : TestCases TestCycles TestPlans Reports
-
-TESTCASES  TESTCYCLES TESTPLANS REPORTS
 
 
 
